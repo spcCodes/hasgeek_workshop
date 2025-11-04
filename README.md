@@ -6,7 +6,7 @@ This repo contains all the codes that would ber taught during the workshop of de
 ### Step 1: Clone the project into your directory
 
 ```
-git clone git@github.com:spcCodes/devday_blr.git
+git clone https://github.com/spcCodes/hasgeek_workshop.git
 ```
 ### Step 2: Enter the project directory
 
