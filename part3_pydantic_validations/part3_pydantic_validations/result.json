@@ -1,0 +1,9 @@
+{
+  "messages": [
+    "content='write a bubble sort algorithm in python' additional_kwargs={} response_metadata={} id='c116546f-9bad-49d3-91f1-31e16854b50b'",
+    "content='def bubble_sort(arr):\\n    n = len(arr)\\n    for i in range(n):\\n        for j in range(0, n - i - 1):\\n            if arr[j] > arr[j + 1]:\\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\\n    return arr' additional_kwargs={} response_metadata={} id='fd490a02-845b-45c9-81e6-88e5ce0a3dd9'"
+  ],
+  "code_content": "def bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n    return arr",
+  "quality_score": 85,
+  "num_words": 38
+}
